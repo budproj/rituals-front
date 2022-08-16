@@ -22,7 +22,7 @@ export const Comment = ({
         <Text color="white" fontWeight={700}>
           {author}
         </Text>
-        <Text color="brand.200">
+        <Text color="#525F80">
           {new Date(createdAt).toLocaleString("pt-br")}
         </Text>
       </Flex>
